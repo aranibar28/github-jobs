@@ -1,0 +1,86 @@
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /*overflow: hidden;*/
+
+  .main {
+    flex-grow: 1;
+  }
+
+  .columns {
+    display: flex;
+    height: 100%;
+    padding: 42px 0 0;
+
+    > aside {
+      width: 30%;
+      padding-right: 16px;
+    }
+
+    > section {
+      width: 70%;
+      padding-left: 16px;
+    }
+  }
+
+  .aside {
+    font-size: 1.4rem;
+
+    &-option {
+      padding-left: 20px;
+      margin-bottom: 20px;
+      color: map-get($colors, blueDark);
+      font-weight: bold;
+
+      label {
+        cursor: pointer;
+      }
+
+      input {
+        margin-right: 6px;
+        position: relative;
+        top: 1px;
+      }
+    }
+
+    h2 {
+      font-weight: bold;
+      color: map-get($colors, grey);
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    .search {
+      margin-bottom: 26px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    li {
+      margin-bottom: 12px;
+
+      &:last-child {
+        margin: 0;
+      }
+
+      input {
+        margin-right: 6px;
+        position: relative;
+        top: 1px;
+      }
+    }
+  }
+
+  .footer {
+    text-align: center;
+    padding: 20px;
+    color: #b9bdcf;
+    margin-top: 100px;
+    border-top: 1px solid map-get($colors, grey_variant);
+  }
+}

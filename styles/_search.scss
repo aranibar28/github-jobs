@@ -1,0 +1,37 @@
+.search {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 4px;
+
+  input {
+    border: 0;
+    padding: 20px 10px;
+    flex-grow: 1;
+
+    &:focus {
+      outline: 0;
+    }
+
+    &::placeholder {
+      color: #b9bdcf;
+    }
+  }
+
+  i {
+    font-size: 1.5rem;
+    padding: 15px;
+    color: #b9bdcf;
+  }
+
+  button {
+    background-color: map-get($colors, bluelight);
+    padding: 20px;
+    border: 0;
+    color: white;
+    font-size: 1.6rem;
+    border-radius: 4px;
+    min-width: 146px;
+  }
+}

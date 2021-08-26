@@ -1,0 +1,57 @@
+.card {
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  margin-bottom: 32px;
+
+  img {
+    border-radius: 4px;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: map-get($colors, blueDark);
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    color: map-get($colors, blueDark);
+    margin-bottom: 12px;
+  }
+
+  &-info {
+    width: 100%;
+    padding-left: 16px;
+    padding-top: 6px;
+
+    div,
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    li {
+      margin-left: 20px;
+      color: grey;
+      i {
+        margin-right: 5px;
+        color: grey;
+      }
+    }
+
+    button {
+      color: #334680;
+      border: 1px solid #334680;
+      background: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      border-radius: 4px;
+      padding: 5px 8px;
+    }
+  }
+}
