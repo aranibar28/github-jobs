@@ -184,6 +184,30 @@ input {
   border-top: 1px solid #b7bcce;
 }
 
+@media (max-width: 1210px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 840px) {
+  .wrapper .columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapper .columns > aside {
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .wrapper .columns > section {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+
 .header {
   padding: 38px 0;
   text-align: left;
@@ -209,6 +233,7 @@ input {
      object-fit: cover;
   display: block;
   width: 100%;
+  height: 138px;
 }
 
 .banner-position {
@@ -230,6 +255,12 @@ input {
   width: 100%;
 }
 
+@media (max-width: 920px) {
+  .banner-position {
+    padding: 0 20px;
+  }
+}
+
 .search {
   background-color: white;
   display: -webkit-box;
@@ -248,6 +279,7 @@ input {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  text-overflow: ellipsis;
 }
 
 .search input:focus {
@@ -284,6 +316,21 @@ input {
   font-size: 1.6rem;
   border-radius: 4px;
   min-width: 146px;
+}
+
+@media (max-width: 840px) {
+  .search button {
+    min-width: auto;
+  }
+}
+
+@media (max-width: 460px) {
+  .search i {
+    padding: 0 5px;
+  }
+  .search input {
+    width: 100px;
+  }
 }
 
 .card {
@@ -354,6 +401,33 @@ input {
   padding: 5px 8px;
 }
 
+.card-info button:hover {
+  color: white;
+  background: #334680;
+  cursor: pointer;
+}
+
+@media (max-width: 460px) {
+  .card h2 {
+    font-size: 1.6rem;
+  }
+  .card-info div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .card-info button {
+    margin-bottom: 10px;
+  }
+  .card-info li:first-child {
+    margin-left: 0;
+  }
+}
+
 .pagination ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -395,13 +469,16 @@ input {
 .detail h1 {
   font-size: 2.4rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  padding: 10px 0;
 }
 
 .detail-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .detail-title button {
@@ -413,6 +490,12 @@ input {
   font-size: 1.2rem;
   border-radius: 4px;
   padding: 5px 8px;
+}
+
+.detail-title button:hover {
+  color: white;
+  background: #334680;
+  cursor: pointer;
 }
 
 .detail-time {
@@ -441,6 +524,10 @@ input {
   padding: 0 0 0 12px;
 }
 
+.detail-brand img {
+  border-radius: 4px;
+}
+
 .detail-brand .detail-time {
   margin: 0;
 }
@@ -459,6 +546,21 @@ input {
 .detail-paragraph p {
   margin: 30px 0;
   line-height: 1.5;
+}
+
+@media (max-width: 460px) {
+  .detail-title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .detail-title button {
+    margin: 0 0 10px;
+  }
 }
 
 .page-detail .columns {

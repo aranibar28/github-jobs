@@ -75,16 +75,16 @@
       }
     }
 
-    &-back{
+    &-back {
       color: #1e86ff;
       margin-bottom: 30px;
       font-weight: bold;
     }
 
-    &-mail{
+    &-mail {
       line-height: 21px;
       font-weight: bold;
-      a{
+      a {
         color: #1e86ff;
       }
     }
@@ -96,5 +96,25 @@
     color: #b9bdcf;
     margin-top: 100px;
     border-top: 1px solid map-get($colors, grey_variant);
+  }
+
+  @media (max-width: 1210px) {
+    padding: 0 20px;
+  }
+
+  @media (max-width: 840px) {
+    .columns {
+      flex-direction: column;
+      > aside {
+        width: 100%;
+        padding-right: 0px;
+        margin-bottom: 30px;
+      }
+
+      > section {
+        width: 100%;
+        padding-left: 0px;
+      }
+    }
   }
 }

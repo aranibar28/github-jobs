@@ -6,6 +6,7 @@
     object-fit: cover;
     display: block;
     width: 100%;
+    height: 138px;
   }
 
   &-position {
@@ -20,6 +21,12 @@
 
     .search {
       width: 100%;
+    }
+  }
+
+  @media (max-width: 920px) {
+    &-position {
+      padding: 0 20px;
     }
   }
 }
