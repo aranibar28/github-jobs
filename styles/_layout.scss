@@ -74,6 +74,20 @@
         top: 1px;
       }
     }
+
+    &-back{
+      color: #1e86ff;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+
+    &-mail{
+      line-height: 21px;
+      font-weight: bold;
+      a{
+        color: #1e86ff;
+      }
+    }
   }
 
   .footer {

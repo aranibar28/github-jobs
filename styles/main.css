@@ -161,6 +161,21 @@ input {
   top: 1px;
 }
 
+.wrapper .aside-back {
+  color: #1e86ff;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.wrapper .aside-mail {
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.wrapper .aside-mail a {
+  color: #1e86ff;
+}
+
 .wrapper .footer {
   text-align: center;
   padding: 20px;
@@ -375,5 +390,78 @@ input {
   border-color: #1e86ff;
   background: #1e86ff;
   color: #fff;
+}
+
+.detail h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.detail-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.detail-title button {
+  margin-left: 20px;
+  color: #334680;
+  border: 1px solid #334680;
+  background: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  padding: 5px 8px;
+}
+
+.detail-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #b7bcce;
+  margin-bottom: 30px;
+}
+
+.detail-time i {
+  margin-right: 8px;
+}
+
+.detail-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.detail-brand > div {
+  padding: 0 0 0 12px;
+}
+
+.detail-brand .detail-time {
+  margin: 0;
+}
+
+.detail-brand h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+.detail-paragraph {
+  font-size: 1.6rem;
+}
+
+.detail-paragraph p {
+  margin: 30px 0;
+  line-height: 1.5;
+}
+
+.page-detail .columns {
+  padding-top: 0;
 }
 /*# sourceMappingURL=main.css.map */

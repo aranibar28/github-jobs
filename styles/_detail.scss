@@ -1,0 +1,59 @@
+.detail {
+  h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  &-title {
+    display: flex;
+    button {
+      margin-left: 20px;
+      color: #334680;
+      border: 1px solid #334680;
+      background: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      border-radius: 4px;
+      padding: 5px 8px;
+    }
+  }
+
+  &-time {
+    display: flex;
+    align-items: center;
+    color: #b7bcce;
+    margin-bottom: 30px;
+    i {
+      margin-right: 8px;
+    }
+  }
+
+  &-brand {
+    display: flex;
+    margin-bottom: 32px;
+
+    >div{
+        padding: 0 0 0 12px;
+    }
+
+    .detail-time {
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-top: 2px;
+      margin-bottom: 5px;
+    }
+  }
+
+  &-paragraph{
+      font-size: 1.6rem;
+
+      p{
+          margin: 30px 0;
+          line-height: 1.5;
+      }
+  }
+}
