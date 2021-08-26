@@ -4,5 +4,5 @@ Taller de maquetación Job Search.
 
 ### Demo: https://aranibar28.github.io/github-jobs/
 
-### Figma: [Link](https://www.figma.com/file/gAkVx9CdOqnJcCjJ7nVNkw/job-search?node-id=1%3A117)
+### Figma: https://www.figma.com/file/gAkVx9CdOqnJcCjJ7nVNkw/job-search?node-id=1%3A117/
 
